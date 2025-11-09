@@ -1,0 +1,64 @@
+/* Custom Gradient Backgrounds */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.bg-login-image {
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Card Shadows */
+.card {
+    border-radius: 15px;
+}
+
+/* Button Styles */
+.btn-user {
+    font-size: 0.9rem;
+    border-radius: 50px;
+    padding: 0.75rem 1rem;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    border-left: 4px solid;
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-primary { border-left-color: #4e73df; }
+.card-success { border-left-color: #1cc88a; }
+.card-warning { border-left-color: #f6c23e; }
+.card-danger { border-left-color: #e74a3b; }
+
+/* QR Code Display */
+.qr-display {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+}
+
+/* Responsive Tables */
+.table-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
